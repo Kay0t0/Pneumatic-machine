@@ -1,11 +1,4 @@
-/* Arduino Control Stepper with Keypad and LCD
- 
-Created by Yvan / https://Brainy-Bits.com
-This code is in the public domain...
-You can: copy it, use it, modify it, share it or just plain ignore it!
-Thx!
- 
-*/
+
 
 #include <Stepper.h>  // no drive tb6600, a entrada dir+ é ligada na porta 8, a entrada pul+ é ligada na porta 9, a entrada en+ é ligada na porta 7, todas no arduino mega.
 const int stepsPerRevolution = 500; 
@@ -488,4 +481,3 @@ void resetnumbers() {  // Reseta os numeros e apaga da tela
 
 
  
-
